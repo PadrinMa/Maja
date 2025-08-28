@@ -1,0 +1,376 @@
+{
+  "evaluation_config": {
+    "scenario": "open_sea",
+    "iou_threshold": 0.5,
+    "total_images": 10,
+    "evaluation_time": 1332.2619252204895
+  },
+  "aggregate_stats": {
+    "micro_precision": 0.4838709677419355,
+    "micro_recall": 0.6382978723404256,
+    "micro_f1": 0.5504587155963303,
+    "macro_precision": 0.47646825396825393,
+    "macro_recall": 0.6785714285714286,
+    "macro_f1": 0.5461327561327561,
+    "total_true_positives": 30,
+    "total_false_positives": 32,
+    "total_false_negatives": 17,
+    "avg_inference_time": 133.14497611522674,
+    "avg_detections_per_image": 6.2,
+    "avg_gt_per_image": 4.7,
+    "images_with_detections": 10,
+    "images_with_gt": 10
+  },
+  "per_image_results": [
+    {
+      "precision": 0.5,
+      "recall": 0.5714285714285714,
+      "f1": 0.5333333333333333,
+      "true_positives": 4,
+      "false_positives": 4,
+      "false_negatives": 3,
+      "average_precision": 0.5,
+      "matched_pairs": [
+        [
+          1,
+          0,
+          0.9229797922758624
+        ],
+        [
+          2,
+          2,
+          0.6913279894020474
+        ],
+        [
+          3,
+          4,
+          0.7992946493754572
+        ],
+        [
+          4,
+          6,
+          0.5151680951417189
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754318798.063479748.png",
+      "gt_count": 7,
+      "pred_count": 8,
+      "inference_time": 115.10856938362122,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1": 0.6666666666666665,
+      "true_positives": 3,
+      "false_positives": 2,
+      "false_negatives": 1,
+      "average_precision": 0.6,
+      "matched_pairs": [
+        [
+          0,
+          0,
+          0.870606812411354
+        ],
+        [
+          1,
+          2,
+          0.7696603868681854
+        ],
+        [
+          4,
+          3,
+          0.6607730001962925
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754318818.063256569.png",
+      "gt_count": 4,
+      "pred_count": 5,
+      "inference_time": 118.54711556434631,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.625,
+      "recall": 0.7142857142857143,
+      "f1": 0.6666666666666666,
+      "true_positives": 5,
+      "false_positives": 3,
+      "false_negatives": 2,
+      "average_precision": 0.625,
+      "matched_pairs": [
+        [
+          0,
+          3,
+          0.5792259921922661
+        ],
+        [
+          1,
+          6,
+          0.7686777654349876
+        ],
+        [
+          2,
+          2,
+          0.7225236935286644
+        ],
+        [
+          3,
+          4,
+          0.7690681506484754
+        ],
+        [
+          6,
+          0,
+          0.9235567775039066
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754318848.064406890.png",
+      "gt_count": 7,
+      "pred_count": 8,
+      "inference_time": 148.41003012657166,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.5,
+      "recall": 0.6666666666666666,
+      "f1": 0.5714285714285715,
+      "true_positives": 2,
+      "false_positives": 2,
+      "false_negatives": 1,
+      "average_precision": 0.5,
+      "matched_pairs": [
+        [
+          0,
+          0,
+          0.8194637235715205
+        ],
+        [
+          1,
+          1,
+          0.536758019472204
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754318958.061332039.png",
+      "gt_count": 3,
+      "pred_count": 4,
+      "inference_time": 143.92429375648499,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.4444444444444444,
+      "recall": 0.6666666666666666,
+      "f1": 0.5333333333333333,
+      "true_positives": 4,
+      "false_positives": 5,
+      "false_negatives": 2,
+      "average_precision": 0.4444444444444444,
+      "matched_pairs": [
+        [
+          0,
+          1,
+          0.7679814707809532
+        ],
+        [
+          1,
+          2,
+          0.8578001280064992
+        ],
+        [
+          3,
+          4,
+          0.5486565256530352
+        ],
+        [
+          4,
+          0,
+          0.7037750619531283
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319028.063083786.png",
+      "gt_count": 6,
+      "pred_count": 9,
+      "inference_time": 146.7640254497528,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "true_positives": 3,
+      "false_positives": 3,
+      "false_negatives": 3,
+      "average_precision": 0.5,
+      "matched_pairs": [
+        [
+          0,
+          0,
+          0.791910463275534
+        ],
+        [
+          1,
+          2,
+          0.8341650473970398
+        ],
+        [
+          5,
+          1,
+          0.67541304766959
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319153.363568455.png",
+      "gt_count": 6,
+      "pred_count": 6,
+      "inference_time": 112.79173970222473,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 1,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "average_precision": 0.3333333333333333,
+      "matched_pairs": [
+        [
+          0,
+          0,
+          0.8733231414183855
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319383.432057204.png",
+      "gt_count": 1,
+      "pred_count": 3,
+      "inference_time": 122.98746705055237,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.42857142857142855,
+      "recall": 0.75,
+      "f1": 0.5454545454545454,
+      "true_positives": 3,
+      "false_positives": 4,
+      "false_negatives": 1,
+      "average_precision": 0.42857142857142855,
+      "matched_pairs": [
+        [
+          0,
+          0,
+          0.8530600217610448
+        ],
+        [
+          1,
+          2,
+          0.8331324302387677
+        ],
+        [
+          2,
+          1,
+          0.5659197083940756
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319403.427944433.png",
+      "gt_count": 4,
+      "pred_count": 7,
+      "inference_time": 143.4285125732422,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.3333333333333333,
+      "recall": 0.6666666666666666,
+      "f1": 0.4444444444444444,
+      "true_positives": 2,
+      "false_positives": 4,
+      "false_negatives": 1,
+      "average_precision": 0.3333333333333333,
+      "matched_pairs": [
+        [
+          0,
+          1,
+          0.7418873242387178
+        ],
+        [
+          1,
+          0,
+          0.866254728935447
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319458.702755711.png",
+      "gt_count": 3,
+      "pred_count": 6,
+      "inference_time": 142.98854064941406,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1": 0.5,
+      "true_positives": 3,
+      "false_positives": 3,
+      "false_negatives": 3,
+      "average_precision": 0.5,
+      "matched_pairs": [
+        [
+          0,
+          1,
+          0.5643840275159265
+        ],
+        [
+          1,
+          0,
+          0.9401027656194237
+        ],
+        [
+          3,
+          2,
+          0.5980955228039818
+        ]
+      ],
+      "image_path": "C:/Users/Matteo/Desktop/Maja/Master-2025-Boat-Detection-and-Classification/test_data/images\\1754319563.739486716.png",
+      "gt_count": 6,
+      "pred_count": 6,
+      "inference_time": 136.49946689605713,
+      "scenario": "open_sea",
+      "image_size": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}
